@@ -61,6 +61,16 @@ rxversion="9.0">
 				searchtimeout="30000ms">
 					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[2]/?/?/input[@type='password']
 				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="0f49b894-8894-42a1-9c5f-60834f9217a3"
+				name="Logo"
+				refimgid="dea227f5-fd65-4049-b13e-1eedbd3252bd"
+				refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[1]"
+				searchtimeout="30000ms">
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[1]
+				</item>
 				<basepath>
 					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]
 				</basepath>
@@ -102,6 +112,26 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='overview']//div[#'root']/div/div[1]/div[1]/div"
 			searchtimeout="30000ms">
 				/dom[@caption='VIEW for ClusterStor&#8482;' and @page='overview']//div[#'root']/div/div[1]/div[1]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="eae5002f-0ff0-414c-918e-dada5be9895f"
+			name="Automation"
+			refimgid="c7cf5983-691f-4b4f-a649-ec6b89cf7794"
+			refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='overview']//div[#'root']/div/div[1]/div[2]/div[2]/div[1]/div[@innertext='automation']"
+			searchtimeout="30000ms">
+				/dom[@caption='VIEW for ClusterStor&#8482;' and @page='overview']//div[#'root']/div/div[1]/div[2]/div[2]/div[1]/div[@innertext='automation']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="386b7682-2ab8-49f6-836d-aff9553927e3"
+			name="Logout"
+			refimgid="9863f524-ab3f-40b0-a28f-3118872c0b42"
+			refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='overview']//div[#'root']/div/div[1]/div[2]/div[2]/div[3]/div[@innertext='Logout']"
+			searchtimeout="30000ms">
+				/dom[@caption='VIEW for ClusterStor&#8482;' and @page='overview']//div[#'root']/div/div[1]/div[2]/div[2]/div[3]/div[@innertext='Logout']
 			</item>
 			<basepath>
 				/dom[@caption='VIEW for ClusterStor&#8482;' and @page='overview']

@@ -150,6 +150,7 @@ namespace CS_View_1_3
             RepoItemInfo _loginInfo;
             RepoItemInfo _textInfo;
             RepoItemInfo _passwordInfo;
+            RepoItemInfo _logoInfo;
 
             /// <summary>
             /// Creates a new LoginShow  folder.
@@ -160,6 +161,7 @@ namespace CS_View_1_3
                 _loginInfo = new RepoItemInfo(this, "Login", "?/?/div[@innertext='Login']", 30000, null, "a179c5e0-1edb-4b44-a328-425980605252");
                 _textInfo = new RepoItemInfo(this, "Text", "div/div[2]/div[1]/?/?/input[@type='text']", 30000, null, "136b7d07-f786-4b59-81d1-495eabf0a592");
                 _passwordInfo = new RepoItemInfo(this, "Password", "div/div[2]/div[2]/?/?/input[@type='password']", 30000, null, "ccebbc85-0438-4526-b34f-609f23ce0387");
+                _logoInfo = new RepoItemInfo(this, "Logo", "div/div[1]", 30000, null, "0f49b894-8894-42a1-9c5f-60834f9217a3");
             }
 
             /// <summary>
@@ -257,6 +259,30 @@ namespace CS_View_1_3
                     return _passwordInfo;
                 }
             }
+
+            /// <summary>
+            /// The Logo item.
+            /// </summary>
+            [RepositoryItem("0f49b894-8894-42a1-9c5f-60834f9217a3")]
+            public virtual Ranorex.DivTag Logo
+            {
+                get
+                {
+                    return _logoInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Logo item info.
+            /// </summary>
+            [RepositoryItemInfo("0f49b894-8894-42a1-9c5f-60834f9217a3")]
+            public virtual RepoItemInfo LogoInfo
+            {
+                get
+                {
+                    return _logoInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -266,6 +292,8 @@ namespace CS_View_1_3
         public partial class VIEWForClusterStor1AppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _logoInfo;
+            RepoItemInfo _automationInfo;
+            RepoItemInfo _logoutInfo;
 
             /// <summary>
             /// Creates a new VIEWForClusterStor1  folder.
@@ -274,6 +302,8 @@ namespace CS_View_1_3
                     base("VIEWForClusterStor1", "/dom[@caption='VIEW for ClusterStor™' and @page='overview']", parentFolder, 30000, null, false, "843bc3d5-28d5-4c07-adfd-3a7780d9aa2d", "")
             {
                 _logoInfo = new RepoItemInfo(this, "Logo", ".//div[#'root']/div/div[1]/div[1]/div", 30000, null, "9d9cb535-bbe9-4999-860e-843489d7cb24");
+                _automationInfo = new RepoItemInfo(this, "Automation", ".//div[#'root']/div/div[1]/div[2]/div[2]/div[1]/div[@innertext='automation']", 30000, null, "eae5002f-0ff0-414c-918e-dada5be9895f");
+                _logoutInfo = new RepoItemInfo(this, "Logout", ".//div[#'root']/div/div[1]/div[2]/div[2]/div[3]/div[@innertext='Logout']", 30000, null, "386b7682-2ab8-49f6-836d-aff9553927e3");
             }
 
             /// <summary>
@@ -321,6 +351,54 @@ namespace CS_View_1_3
                 get
                 {
                     return _logoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Automation item.
+            /// </summary>
+            [RepositoryItem("eae5002f-0ff0-414c-918e-dada5be9895f")]
+            public virtual Ranorex.DivTag Automation
+            {
+                get
+                {
+                    return _automationInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Automation item info.
+            /// </summary>
+            [RepositoryItemInfo("eae5002f-0ff0-414c-918e-dada5be9895f")]
+            public virtual RepoItemInfo AutomationInfo
+            {
+                get
+                {
+                    return _automationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Logout item.
+            /// </summary>
+            [RepositoryItem("386b7682-2ab8-49f6-836d-aff9553927e3")]
+            public virtual Ranorex.DivTag Logout
+            {
+                get
+                {
+                    return _logoutInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Logout item info.
+            /// </summary>
+            [RepositoryItemInfo("386b7682-2ab8-49f6-836d-aff9553927e3")]
+            public virtual RepoItemInfo LogoutInfo
+            {
+                get
+                {
+                    return _logoutInfo;
                 }
             }
         }

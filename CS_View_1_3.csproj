@@ -132,6 +132,18 @@
       <UserCode>true</UserCode>
       <id>1c87a0bf-fc6c-4975-9700-c3ed68080d1d</id>
     </Compile>
+    <Compile Include="Browser_Logout.cs">
+      <BoundTo>e29e92bd-53f0-4629-a079-381da328b8a5</BoundTo>
+      <DependentUpon>Browser_Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a1390492-5f97-4122-b6d1-57adde0ca74e</id>
+    </Compile>
+    <Compile Include="Browser_Logout.UserCode.cs">
+      <BoundTo>e29e92bd-53f0-4629-a079-381da328b8a5</BoundTo>
+      <DependentUpon>Browser_Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d97b5bbb-0dd8-462a-bb8d-ca1a6dc46ea5</id>
+    </Compile>
     <Compile Include="CS_View_1_3Repository.cs">
       <BoundTo>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</BoundTo>
       <DependentUpon>CS_View_1_3Repository.rxrep</DependentUpon>
@@ -150,6 +162,11 @@
       <BoundTo>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</BoundTo>
       <id>113348c0-1b37-47e9-bab5-0377e878ad9f</id>
       <recordtableid>a76da69b-9743-467f-8967-c9431465a6ed</recordtableid>
+    </None>
+    <None Include="Browser_Logout.rxrec">
+      <BoundTo>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</BoundTo>
+      <id>e29e92bd-53f0-4629-a079-381da328b8a5</id>
+      <recordtableid>f0af03c7-ad51-441c-9afe-02d5a4d35a55</recordtableid>
     </None>
     <None Include="CS_View_1_3Repository.rximg">
       <BoundTo>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</BoundTo>

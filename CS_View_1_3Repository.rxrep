@@ -1,0 +1,130 @@
+﻿<repository
+id="63dcd506-4e9e-470f-84fe-7e623ee8d287"
+name="CS_View_1_3Repository"
+rxversion="9.0">
+	<codegen
+	classname="CS_View_1_3Repository"
+	namespace="CS_View_1_3">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3159e577-c985-4041-b71f-a71f4a43e824"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="931d6100-e667-44f5-880b-0faa259f387d"
+		isrooted="True"
+		name="VIEWForClusterStor"
+		refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="496dc1b9-d077-48cd-baa6-f678b668383b"
+			isrooted="True"
+			name="LoginShow"
+			refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="a179c5e0-1edb-4b44-a328-425980605252"
+				name="Login"
+				refimgid="9ee1df50-c1b5-4353-9b8e-09fde9e5c40e"
+				refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[@innertext='Login']"
+				searchtimeout="30000ms">
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/?/?/div[@innertext='Login']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="136b7d07-f786-4b59-81d1-495eabf0a592"
+				name="Text"
+				refimgid="c9b8fa19-ecd7-4c61-b4b1-b5b4e68b19b5"
+				refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[1]/div/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[1]/?/?/input[@type='text']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="ccebbc85-0438-4526-b34f-609f23ce0387"
+				name="Password"
+				refimgid="75f5c309-b1da-4d80-bdc8-8f44d1345ffc"
+				refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[2]/div/input[@type='password']"
+				searchtimeout="30000ms">
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[2]/?/?/input[@type='password']
+				</item>
+				<basepath>
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="843bc3d5-28d5-4c07-adfd-3a7780d9aa2d"
+		isrooted="True"
+		name="VIEWForClusterStor1"
+		refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='overview']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9d9cb535-bbe9-4999-860e-843489d7cb24"
+			name="Logo"
+			refimgid="b4fb867a-9b84-430a-a4e7-204f69e5c4fd"
+			refpath="/dom[@domain='lmo-view02.dev.cray.com' and @caption='VIEW for ClusterStor™' and @page='overview']//div[#'root']/div/div[1]/div[1]/div"
+			searchtimeout="30000ms">
+				/dom[@caption='VIEW for ClusterStor&#8482;' and @page='overview']//div[#'root']/div/div[1]/div[1]/div
+			</item>
+			<basepath>
+				/dom[@caption='VIEW for ClusterStor&#8482;' and @page='overview']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

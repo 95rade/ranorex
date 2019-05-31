@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8c07b5e9e0997b4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="rmilijasev"
+		rxversion="9.0.1.0"
+		host="DESKTOP-U14V8DL"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="5/31/2019 9:48:17 AM"
+		timestampiso="2019-05-31T16:48:17"
+		endtime="5/31/2019 9:48:28 AM"
+		timeoutfactor="1"
+		module="Headless_Login">
+		<detail>
+			Headless_Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.178"
+			timeRelativeToTestModuleStartTime="00:04.179"
+			timeWallClock="09:48:21"
+			time="00:04.178"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'VIEWForClusterStor.LoginShow.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[1]/?/?/input[@type='text']"
+				itempath="div/div[2]/div[1]/?/?/input[@type='text']"
+				fullname="CS_View_1_3Repository.VIEWForClusterStor.LoginShow.Text"
+				id="136b7d07f7864b5981d1495eabf0a592"
+				timeout="90000"
+				codefile="c:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\Headless_Login.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.782"
+			timeRelativeToTestModuleStartTime="00:08.783"
+			timeWallClock="09:48:26"
+			time="00:08.782"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to 'automation' on item 'VIEWForClusterStor.LoginShow.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[1]/?/?/input[@type='text']"
+				itempath="div/div[2]/div[1]/?/?/input[@type='text']"
+				fullname="CS_View_1_3Repository.VIEWForClusterStor.LoginShow.Text"
+				id="136b7d07f7864b5981d1495eabf0a592"
+				timeout="90000"
+				codefile="c:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\Headless_Login.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.218"
+			timeRelativeToTestModuleStartTime="00:09.219"
+			timeWallClock="09:48:26"
+			time="00:09.218"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'VIEWForClusterStor.LoginShow.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[2]/?/?/input[@type='password']"
+				itempath="div/div[2]/div[2]/?/?/input[@type='password']"
+				fullname="CS_View_1_3Repository.VIEWForClusterStor.LoginShow.Password"
+				id="ccebbc8504384526b34f609f23ce0387"
+				timeout="90000"
+				codefile="c:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\Headless_Login.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.691"
+			timeRelativeToTestModuleStartTime="00:09.692"
+			timeWallClock="09:48:26"
+			time="00:09.691"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute TagValue to 'automation' on item 'VIEWForClusterStor.LoginShow.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[2]/?/?/input[@type='password']"
+				itempath="div/div[2]/div[2]/?/?/input[@type='password']"
+				fullname="CS_View_1_3Repository.VIEWForClusterStor.LoginShow.Password"
+				id="ccebbc8504384526b34f609f23ce0387"
+				timeout="90000"
+				codefile="c:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\Headless_Login.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.111"
+			timeRelativeToTestModuleStartTime="00:10.112"
+			timeWallClock="09:48:27"
+			time="00:10.111"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'VIEWForClusterStor.LoginShow.Login'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='VIEW for ClusterStor™' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/?/?/div[@innertext='Login']"
+				itempath="?/?/div[@innertext='Login']"
+				fullname="CS_View_1_3Repository.VIEWForClusterStor.LoginShow.Login"
+				id="a179c5e01edb4b44a328425980605252"
+				timeout="90000"
+				codefile="c:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\Headless_Login.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.573"
+			timeRelativeToTestModuleStartTime="00:10.574"
+			timeWallClock="09:48:27"
+			time="00:10.573"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'VIEWForClusterStor1.Logo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='VIEW for ClusterStor™' and @page='overview']//div[#'root']/div/div[1]/div[1]/div"
+				itempath=".//div[#'root']/div/div[1]/div[1]/div"
+				fullname="CS_View_1_3Repository.VIEWForClusterStor1.Logo"
+				id="9d9cb535bbe94999860e843489d7cb24"
+				timeout="60000"
+				codefile="c:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\Headless_Login.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.199"
+			timeRelativeToTestModuleStartTime="00:11.200"
+			timeWallClock="09:48:28"
+			time="00:11.199"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Logo' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@caption='VIEW for ClusterStor™' and @page='overview']//div[#'root']/div/div[1]/div[1]/div"
+				itempath=".//div[#'root']/div/div[1]/div[1]/div"
+				fullname="CS_View_1_3Repository.VIEWForClusterStor1.Logo"
+				id="9d9cb535bbe94999860e843489d7cb24"
+				timeout="60000"
+				codefile="c:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\Headless_Login.cs"
+				codeline="103"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

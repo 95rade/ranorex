@@ -1,0 +1,9 @@
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\bin\Debug\CS_View_1_3.rxtst
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\bin\Debug\CS_View_1_3.exe.config
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\bin\Debug\CS_View_1_3.xml
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\bin\Debug\CS_View_1_3.exe
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\bin\Debug\CS_View_1_3.pdb
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\obj\x86\Debug\CS_View_1_3.csprojResolveAssemblyReference.cache
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\obj\x86\Debug\CS_View_1_3.exe
+C:\Users\rmilijasev\Documents\Ranorex\RanorexStudio Projects\CS_View_1_3_Solution\CS_View_1_3\obj\x86\Debug\CS_View_1_3.pdb

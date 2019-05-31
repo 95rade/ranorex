@@ -53,6 +53,20 @@ rxversion="9.0">
 			id="6e5f1c1a-b502-432d-a3f0-572a67fdc5ce"
 			name="cslmo3_CPU_utilization">
 			</testcase>
+			<teardown
+			id="76dc23cd-95f7-45e3-8835-ec2321cce942"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="776527de-23dc-4124-aa13-d9df80a10659"
+			name="Headless_Login"
+			ref="93ca0169-1785-49bc-8ef6-8a7750b0f2e2"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="7d7e4301-cf94-47f7-b302-c3d9004ce730"
+			name="setup">
+			</setup>
 			<testmodule
 			id="8d213084-403e-425c-ae37-7e6637db9f5c"
 			name="Browser_Login"
@@ -106,6 +120,18 @@ rxversion="9.0">
 						<testcase
 						id="dab1c927-0ed5-45e7-8cb6-8e2e8278e528"
 						name="Headless_Login_Logout">
+							<setup
+							id="7d7e4301-cf94-47f7-b302-c3d9004ce730"
+							name="setup">
+								<testmodule
+								id="776527de-23dc-4124-aa13-d9df80a10659"
+								name="Headless_Login">
+								</testmodule>
+							</setup>
+							<teardown
+							id="76dc23cd-95f7-45e3-8835-ec2321cce942"
+							name="teardown">
+							</teardown>
 						</testcase>
 						<testcase
 						id="d2d02b5d-9536-4d6a-bbbf-9253db97c0e3"

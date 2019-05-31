@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="93ca0169-1785-49bc-8ef6-8a7750b0f2e2"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Headless_Login"
+	namespace="CS_View_1_3">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="75b9eaa5-935c-42db-b62a-d7e423447e3d"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="136b7d07-f786-4b59-81d1-495eabf0a592"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocapitalize"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocorrect"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="spellcheck"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[1]/?/?/input[@type='text']
+				</path>
+			</info>
+			<arguments
+			id="c790e71e-c43c-4887-9990-149e6be04951">
+			</arguments>
+		</invokeactionrecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="00f45043-36b5-4d33-bbb2-54942d57a263">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="136b7d07-f786-4b59-81d1-495eabf0a592"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocapitalize"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocorrect"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="spellcheck"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[1]/?/?/input[@type='text']
+				</path>
+			</info>
+			<AttributeValue>
+				automation
+			</AttributeValue>
+		</setvaluerecorditem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b44adf25-199a-4b37-9c7a-0f401f18d568"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ccebbc85-0438-4526-b34f-609f23ce0387"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocapitalize"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="autocorrect"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="spellcheck"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[2]/?/?/input[@type='password']
+				</path>
+			</info>
+			<arguments
+			id="e4636ed5-b5e0-459c-b7d1-e60d488ce8b1">
+			</arguments>
+		</invokeactionrecorditem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="00f45043-36b5-4d33-bbb2-54942d57a263">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ccebbc85-0438-4526-b34f-609f23ce0387"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/div/div[2]/div[2]/?/?/input[@type='password']
+				</path>
+			</info>
+			<AttributeValue>
+				automation
+			</AttributeValue>
+		</setvaluerecorditem>
+		<invokeactionrecorditem
+		action="PerformClick"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2aa7d22b-3a48-437f-accc-659459a1204b"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a179c5e0-1edb-4b44-a328-425980605252"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="2"
+				prefcap="divtag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='auth' and @path='/auth' and @browsername='Firefox']//div[#'root']/div/div/div/div[1]/?/?/div[@innertext='Login']
+				</path>
+			</info>
+			<arguments
+			id="96abdc4a-042c-4976-a2c6-2a9727e63a96">
+			</arguments>
+		</invokeactionrecorditem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4055eb2a-1ddf-481c-8b11-644632615be7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9d9cb535-bbe9-4999-860e-843489d7cb24"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="288,185,426,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						logo
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@caption='VIEW for ClusterStor&#8482;' and @page='overview']//div[#'root']/div/div[1]/div[1]/div
+				</path>
+			</info>
+			<helperscreenshot
+			guid="23f0d1cf-184a-4405-9cd6-7149aa57dd89">
+				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
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="63dcd506-4e9e-470f-84fe-7e623ee8d287"
+	name="CS_View_1_3Repository"
+	relativepath="CS_View_1_3Repository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="CS_View_1_3Repository"
+		namespace="CS_View_1_3">
+		</codegen>
+		<rootfolder
+		id="3159e577-c985-4041-b71f-a71f4a43e824"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Headless_Login.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

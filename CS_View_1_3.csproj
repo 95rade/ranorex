@@ -14,6 +14,7 @@
     <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
     <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
     <projectdefaultrepository>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</projectdefaultrepository>
+    <StartAction>Project</StartAction>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -150,6 +151,18 @@
       <RepositoryCode>true</RepositoryCode>
       <id>cbbce1ca-ceed-418d-a9e0-37bad83ae62b</id>
     </Compile>
+    <Compile Include="Headless_Login.cs">
+      <BoundTo>9b01307a-679f-4c91-bdea-2e1a8a9aaf68</BoundTo>
+      <DependentUpon>Headless_Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ac3b84c-fb65-40a7-a830-7db2f1355f51</id>
+    </Compile>
+    <Compile Include="Headless_Login.UserCode.cs">
+      <BoundTo>9b01307a-679f-4c91-bdea-2e1a8a9aaf68</BoundTo>
+      <DependentUpon>Headless_Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>744fe375-755c-4a9b-9cb4-8422aa391b74</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>0b7e5f15-1c45-47c5-b9b5-387e52463e95</id>
     </Compile>
@@ -178,6 +191,11 @@
       <id>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</id>
       <repoid>63dcd506-4e9e-470f-84fe-7e623ee8d287</repoid>
       <reporootid>3159e577-c985-4041-b71f-a71f4a43e824</reporootid>
+    </None>
+    <None Include="Headless_Login.rxrec">
+      <BoundTo>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</BoundTo>
+      <id>9b01307a-679f-4c91-bdea-2e1a8a9aaf68</id>
+      <recordtableid>93ca0169-1785-49bc-8ef6-8a7750b0f2e2</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

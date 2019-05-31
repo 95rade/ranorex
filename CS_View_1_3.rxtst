@@ -185,14 +185,14 @@ rxversion="9.0">
 								id="8d213084-403e-425c-ae37-7e6637db9f5c"
 								name="Browser_Login">
 								</testmodule>
-								<testmodule
-								id="36be5f37-815c-40a2-b014-58db5f744e5e"
-								name="Browser_Logout">
-								</testmodule>
 							</setup>
 							<teardown
 							id="ae8bca6d-e025-4fdb-836e-b0818fd2c8e5"
 							name="teardown">
+								<testmodule
+								id="36be5f37-815c-40a2-b014-58db5f744e5e"
+								name="Browser_Logout">
+								</testmodule>
 							</teardown>
 						</testcase>
 					</smartfoldernode>

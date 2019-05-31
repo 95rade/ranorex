@@ -163,6 +163,18 @@
       <UserCode>true</UserCode>
       <id>744fe375-755c-4a9b-9cb4-8422aa391b74</id>
     </Compile>
+    <Compile Include="Headless_Logout.cs">
+      <BoundTo>21f2807e-1ff9-4293-8e6d-657aa8bd0512</BoundTo>
+      <DependentUpon>Headless_Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae7d71a0-2519-405f-8e1f-59bb2d46c8d0</id>
+    </Compile>
+    <Compile Include="Headless_Logout.UserCode.cs">
+      <BoundTo>21f2807e-1ff9-4293-8e6d-657aa8bd0512</BoundTo>
+      <DependentUpon>Headless_Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b382ccfc-8a50-4449-b822-89ce3cb65318</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>0b7e5f15-1c45-47c5-b9b5-387e52463e95</id>
     </Compile>
@@ -196,6 +208,11 @@
       <BoundTo>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</BoundTo>
       <id>9b01307a-679f-4c91-bdea-2e1a8a9aaf68</id>
       <recordtableid>93ca0169-1785-49bc-8ef6-8a7750b0f2e2</recordtableid>
+    </None>
+    <None Include="Headless_Logout.rxrec">
+      <BoundTo>1DDCCB5D-C0D2-455C-9530-0763F3CF1B82</BoundTo>
+      <id>21f2807e-1ff9-4293-8e6d-657aa8bd0512</id>
+      <recordtableid>fa19b143-843f-4854-9a4e-060fcaa61657</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -291,6 +291,45 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:CS_View_1_3.Headless_Logout">
+             <summary>
+            The Headless_Logout recording.
+             </summary>
+        </member>
+        <member name="F:CS_View_1_3.Headless_Logout.repo">
+            <summary>
+            Holds an instance of the CS_View_1_3Repository repository.
+            </summary>
+        </member>
+        <member name="M:CS_View_1_3.Headless_Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:CS_View_1_3.Headless_Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:CS_View_1_3.Headless_Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:CS_View_1_3.Headless_Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:CS_View_1_3.Headless_Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:CS_View_1_3.Headless_Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:__RxMain.__RxProgram">
             <summary>
             Modified Program class that ensures that the Ranorex System gets initialized and cleaned up

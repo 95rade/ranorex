@@ -24,6 +24,12 @@ rxversion="9.0">
 			name="cslmo3_CPU_iowait">
 			</testcase>
 			<testmodule
+			id="3643f8d2-bf29-4876-9b72-e1dc754dfcaa"
+			name="Headless_Logout"
+			ref="fa19b143-843f-4854-9a4e-060fcaa61657"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="36be5f37-815c-40a2-b014-58db5f744e5e"
 			name="Browser_Logout"
 			ref="f0af03c7-ad51-441c-9afe-02d5a4d35a55"
@@ -131,6 +137,10 @@ rxversion="9.0">
 							<teardown
 							id="76dc23cd-95f7-45e3-8835-ec2321cce942"
 							name="teardown">
+								<testmodule
+								id="3643f8d2-bf29-4876-9b72-e1dc754dfcaa"
+								name="Headless_Logout">
+								</testmodule>
 							</teardown>
 						</testcase>
 						<testcase
